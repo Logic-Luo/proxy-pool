@@ -33,20 +33,18 @@ public class CrawlerJob implements Runnable {
             //生产者
             //schedulerJobExecutor.execute(new XicidailiCrawlerJob(proxyIpQueue, "http://www.xicidaili.com/nn"), 0, 100, TimeUnit.SECONDS);
 
-            //schedulerJobExecutor.execute(new Data5uCrawlerJob(proxyIpQueue, "http://www.data5u.com/free/index.shtml"), 10, 100, TimeUnit.SECONDS);
+            schedulerJobExecutor.execute(new CnProxyCrawlerJob(proxyIpQueue, "http://https://www.cn-proxy.com/"), 10, 100, TimeUnit.SECONDS);
 
-            schedulerJobExecutor.execute(new FreeProxyListCrawlerJob(proxyIpQueue, "https://free-proxy-list.net"), 20, 100, TimeUnit.SECONDS);
+            schedulerJobExecutor.execute(new RmccurdyCrawlerJob(proxyIpQueue, "http://www.ab57.ru/downloads/proxyold.txt"), 20, 100, TimeUnit.SECONDS);
 
-            schedulerJobExecutor.execute(new MyProxyCrawlerJob(proxyIpQueue, "https://www.my-proxy.com/free-proxy-list.html"), 30, 100, TimeUnit.SECONDS);
+            schedulerJobExecutor.execute(new RmccurdyCrawlerJob(proxyIpQueue, "http://www.proxylists.net/http_highanon.txt"), 30, 100, TimeUnit.SECONDS);
 
-            //schedulerJobExecutor.execute(new SpysOneCrawlerJob(proxyIpQueue, "http://spys.one/en/free-proxy-list/"), 40, 100, TimeUnit.SECONDS);
+            schedulerJobExecutor.execute(new RmccurdyCrawlerJob(proxyIpQueue, "https://www.rmccurdy.com/scripts/proxy/good.txt"), 40, 100, TimeUnit.SECONDS);
 
-            // TODO: 2019/7/11 可用
             schedulerJobExecutor.execute(new ProxynovaCrawlerJob(proxyIpQueue, "https://www.proxynova.com/proxy-server-list/"), 50, 100, TimeUnit.SECONDS);
 
-            schedulerJobExecutor.execute(new Proxy4FreeCrawlerJob(proxyIpQueue, "https://www.proxy4free.com/list/webproxy1.html"), 60, 100, TimeUnit.SECONDS);
+//            schedulerJobExecutor.execute(new Proxy4FreeCrawlerJob(proxyIpQueue, "https://www.proxy4free.com/list/webproxy1.html"), 60, 100, TimeUnit.SECONDS);
 
-            // TODO: 2019/7/11 可用
             schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/"), 70, 100, TimeUnit.SECONDS);
 
             //消费者

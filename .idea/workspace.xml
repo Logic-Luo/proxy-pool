@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff2da48-0562-4ae0-92de-32c017139bd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CnProxyCrawlerJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/chenerzhu/crawler/proxy/pool/TestNewProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CnProxyCrawlerJobTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/RmccurdyCrawlerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/chenerzhu/crawler/proxy/pool/job/crawler/RmccurdyCrawlerJobTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CnProxyCrawlerJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CnProxyCrawlerJob.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CrawlerJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CrawlerJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenerzhu/crawler/proxy/pool/job/crawler/CnProxyCrawlerJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chenerzhu/crawler/proxy/pool/job/crawler/CnProxyCrawlerJob.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +31,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="7" />
-          <entry key="java" value="60" />
+          <entry key="java" value="66" />
           <entry key="md" value="1" />
           <entry key="properties" value="4" />
         </counts>
@@ -41,20 +39,20 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="60" />
+          <entry key="JAVA" value="66" />
           <entry key="Markdown" value="1" />
           <entry key="Properties" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="791" />
+          <entry key="java" value="1984" />
           <entry key="properties" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="791" />
+          <entry key="JAVA" value="1984" />
           <entry key="Properties" value="71" />
         </counts>
       </usages-collector>
@@ -65,17 +63,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CrawlerJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="49" column="61" lean-forward="true" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
+            <state relative-caret-position="486">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CnProxyCrawlerJob.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/RmccurdyCrawlerJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="339">
+              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,14 +81,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CnProxyCrawlerJobTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/chenerzhu/crawler/proxy/pool/job/crawler/RmccurdyCrawlerJobTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CnProxyCrawlerJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/AbstractCrawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="75" column="43" lean-forward="true" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="43" />
+            <state relative-caret-position="508">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -184,11 +194,16 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/entity/ProxyIp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/scheduler/AbstractSchedulerJob.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CrawlerJob.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/chenerzhu/crawler/proxy/pool/TestNewProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/entity/WebPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CnProxyCrawlerJobTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/GoubanjiaCrawlerJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CoolProxyCrawler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CoolProxyCrawlerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/chenerzhu/crawler/proxy/pool/job/crawler/RmccurdyCrawlerJobTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CnProxyCrawlerJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CrawlerJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/RmccurdyCrawlerJob.java" />
       </list>
     </option>
   </component>
@@ -357,6 +372,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pool" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="proxy-pool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proxy-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pool" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -371,7 +395,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563008465053" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563013738316" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -398,9 +422,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CnProxyCrawlerJobTest.testRun">
-    <configuration name="CnProxyCrawlerJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chenerzhu.crawler.proxy.pool.job.crawler.CnProxyCrawlerJob" />
+  <component name="RunManager" selected="Spring Boot.ProxyPoolApplication">
+    <configuration name="GoubanjiaCrawlerJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chenerzhu.crawler.proxy.pool.job.crawler.GoubanjiaCrawlerJob" />
+      <module name="proxy-pool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenerzhu.crawler.proxy.pool.job.crawler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RmccurdyCrawlerJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chenerzhu.crawler.proxy.pool.job.crawler.RmccurdyCrawlerJob" />
       <module name="proxy-pool" />
       <extension name="coverage">
         <pattern>
@@ -428,17 +465,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNewProxy.proxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CoolProxyCrawlerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proxy-pool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chenerzhu.crawler.proxy.pool.*" />
+          <option name="PATTERN" value="com.chenerzhu.crawler.proxy.pool.job.crawler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.chenerzhu.crawler.proxy.pool" />
-      <option name="MAIN_CLASS_NAME" value="com.chenerzhu.crawler.proxy.pool.TestNewProxy" />
-      <option name="METHOD_NAME" value="proxyTest" />
+      <option name="PACKAGE_NAME" value="com.chenerzhu.crawler.proxy.pool.job.crawler" />
+      <option name="MAIN_CLASS_NAME" value="com.chenerzhu.crawler.proxy.pool.job.crawler.CoolProxyCrawlerTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RmccurdyCrawlerJobTest.parsePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proxy-pool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenerzhu.crawler.proxy.pool.job.crawler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chenerzhu.crawler.proxy.pool.job.crawler" />
+      <option name="MAIN_CLASS_NAME" value="com.chenerzhu.crawler.proxy.pool.job.crawler.RmccurdyCrawlerJobTest" />
+      <option name="METHOD_NAME" value="parsePage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -453,15 +506,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ProxyPoolApplication" />
-      <item itemvalue="JUnit.TestNewProxy.proxyTest" />
-      <item itemvalue="Application.CnProxyCrawlerJob" />
       <item itemvalue="JUnit.CnProxyCrawlerJobTest.testRun" />
+      <item itemvalue="Application.GoubanjiaCrawlerJob" />
+      <item itemvalue="JUnit.CoolProxyCrawlerTest.test" />
+      <item itemvalue="JUnit.RmccurdyCrawlerJobTest.parsePage" />
+      <item itemvalue="Application.RmccurdyCrawlerJob" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RmccurdyCrawlerJob" />
+        <item itemvalue="JUnit.RmccurdyCrawlerJobTest.parsePage" />
+        <item itemvalue="JUnit.CoolProxyCrawlerTest.test" />
+        <item itemvalue="Application.GoubanjiaCrawlerJob" />
         <item itemvalue="JUnit.CnProxyCrawlerJobTest.testRun" />
-        <item itemvalue="Application.CnProxyCrawlerJob" />
-        <item itemvalue="JUnit.TestNewProxy.proxyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +535,7 @@
       <workItem from="1562846363069" duration="6025000" />
       <workItem from="1562903549292" duration="2558000" />
       <workItem from="1562933606232" duration="327000" />
-      <workItem from="1562935451910" duration="7143000" />
+      <workItem from="1562935451910" duration="12017000" />
     </task>
     <servers />
   </component>
@@ -492,15 +549,26 @@
     <history-entry file="TestNewProxy_proxyTest - 2019.07.12 at 13h 23m 25s.xml">
       <configuration name="TestNewProxy.proxyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CnProxyCrawlerJobTest_testRun - 2019.07.13 at 17h 04m 19s.xml">
+      <configuration name="CnProxyCrawlerJobTest.testRun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoolProxyCrawlerTest_test - 2019.07.13 at 18h 00m 51s.xml">
+      <configuration name="CoolProxyCrawlerTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoolProxyCrawlerTest_test - 2019.07.13 at 18h 02m 49s.xml">
+      <configuration name="CoolProxyCrawlerTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RmccurdyCrawlerJobTest_parsePage - 2019.07.13 at 18h 10m 18s.xml">
+      <configuration name="RmccurdyCrawlerJobTest.parsePage" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16053000" />
+    <option name="totallyTimeSpent" value="20927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24297924" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21062271" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -510,8 +578,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23510972" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.40543365" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31661442" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.56844306" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -537,41 +605,41 @@
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25329816" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
-      <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="MyBatis Log" order="8" />
-      <window_info anchor="bottom" id="Message" order="9" />
-      <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.29606625" />
-      <window_info active="true" anchor="bottom" id="Debug" order="12" visible="true" weight="0.32091096" />
-      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="15" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="2" weight="0.32849604" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="RestServices" order="6" />
-      <window_info anchor="right" id="Bean Validation" order="7" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21062271" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17972831" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23615465" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291536" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="MyBatis Log" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32849604" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="RestServices" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,74 +648,50 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/AbstractCrawler.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/AbstractCrawler.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CnProxyCrawlerJob.java</url>
-          <line>646</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>parse.body().getElementsByTag(&quot;tr&quot;).get(2).child(0).text();</expression-string>
+        <expression-string>webPage.getHtml();</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>parse.body().getElementsByTag(&quot;tr&quot;).get(2).child(1).text();</expression-string>
+        <expression-string>div.get(0).text() + span.get(0).text()+div.get(1).text()  + span.get(2).text() + div.get(3).text() +span.get(3).text() + span.get(4).text()  + span.get(5).text() + span.get(8).text() + span.get(9).text() + &quot;:&quot; + span.get(10).text();</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>parse.body().getElementsByTag(&quot;tr&quot;).get(2).child(1);</expression-string>
+        <expression-string>div.get(0).text() + span.get(0).text()+div.get(1).text()  + span.get(2).text() + div.get(3).text() +span.get(3).text();</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>parse.body().getElementsByTag(&quot;tr&quot;);</expression-string>
+        <expression-string>div.get(0).text() + span.get(0).text()+div.get(1).text()  + span.get(2).text() + div.get(3).text() +span.get(3).text() + span.get(5).text() + span.get(8).text() + span.get(9).text() + &quot;:&quot; + span.get(10).text();</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>parse.body().getElementsByClass(&quot;table-container&quot;).get(0).getElementsByClass(&quot;tbody&quot;).attr(&quot;tr&quot;);</expression-string>
+        <expression-string>div.get(0).text() + span.get(0).text()+div.get(1).text()  + span.get(2).text() + div.get(3).text() +span.get(3).text() + span.get(5).text() + span.get(8).text() + span.get(9).text() + span.get(9).text();</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>parse.body().getElementsByClass(&quot;table-container&quot;).get(0).getElementsByClass(&quot;tbody&quot;).unwrap();</expression-string>
+        <expression-string>div.get(0).text() + span.get(0).text()+div.get(1).text()  + span.get(2).text() + div.get(3).text() +span.get(3).text() + span.get(5).text() + span.get(8).text() + span.get(9).text() + span.get(11).text();</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>parse.body().getElementsByClass(&quot;table-container&quot;).get(0).getElementsByClass(&quot;tbody&quot;).eachText();</expression-string>
+        <expression-string>div.get(0).text() + span.get(0).text()+div.get(1).text()  + span.get(2).text() + div.get(3).text() +span.get(3).text() + span.get(5).text() + span.get(8).text() + span.get(9).text() + span.get(10).text();</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>parse.body().getElementsByClass(&quot;table-container&quot;).get(0).getElementsByClass(&quot;tbody&quot;).elementData;</expression-string>
+        <expression-string>div.get(0).text() + span.get(0).text()+div.get(1).text()  + span.get(2).text() + div.get(3).text() +span.get(3).text() + span.get(5).text() + span.get(8).text() + span.get(9).text();</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>parse.body().getElementsByClass(&quot;table-container&quot;).get(0).getElementsByClass(&quot;tbody&quot;).elementData(1);</expression-string>
+        <expression-string>div.get(0).text() + span.get(0).text()+div.get(1).text()  + span.get(2).text() + div.get(3).text() +span.get(3).text() + span.get(5).text() + span.get(9).text();</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -882,24 +926,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CrawlerJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="49" column="61" lean-forward="true" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/MyProxyCrawlerJob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/AbstractCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="75" column="43" lean-forward="true" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -910,16 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CnProxyCrawlerJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CnProxyCrawlerJobTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -927,6 +947,84 @@
           <folding>
             <element signature="e#153#154#0" expanded="true" />
             <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/GoubanjiaCrawlerJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="441" column="61" selection-start-line="441" selection-start-column="61" selection-end-line="441" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CoolProxyCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CoolProxyCrawlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CnProxyCrawlerJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/CrawlerJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/chenerzhu/crawler/proxy/pool/job/crawler/RmccurdyCrawlerJobTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/AbstractCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenerzhu/crawler/proxy/pool/job/crawler/RmccurdyCrawlerJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
