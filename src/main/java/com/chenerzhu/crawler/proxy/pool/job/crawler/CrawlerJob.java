@@ -47,6 +47,23 @@ public class CrawlerJob implements Runnable {
 
             schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/"), 70, 100, TimeUnit.SECONDS);
 
+            schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/proxylist/anonymity/?t=Elite"), 80, 100, TimeUnit.SECONDS);
+            schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/proxylist/anonymity/?t=Anonymous"), 90, 100, TimeUnit.SECONDS);
+            schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/proxylist/country/?c=China"), 100, 100, TimeUnit.SECONDS);
+            schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/proxylist/country/?c=Brazil"), 110, 100, TimeUnit.SECONDS);
+
+            schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/proxylist/country/?c=Brazil"), 120, 100, TimeUnit.SECONDS);
+            schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/proxylist/country/?c=Indonesia"), 130, 100, TimeUnit.SECONDS);
+            schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/proxylist/country/?c=Russia"), 140, 100, TimeUnit.SECONDS);
+            schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/proxylist/country/?c=United%20States"), 150, 100, TimeUnit.SECONDS);
+            schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/proxylist/country/?c=Thailand"), 160, 100, TimeUnit.SECONDS);
+
+
+            schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/proxylist/port/8080"), 170, 100, TimeUnit.SECONDS);
+            schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/proxylist/port/3128"), 170, 100, TimeUnit.SECONDS);
+            schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/proxylist/port/80"), 170, 100, TimeUnit.SECONDS);
+            schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/proxylist/port/8118"), 170, 100, TimeUnit.SECONDS);
+
             //消费者
             for (int i = 0; i < 5; i++) {
                 executorService.execute(new Runnable() {
