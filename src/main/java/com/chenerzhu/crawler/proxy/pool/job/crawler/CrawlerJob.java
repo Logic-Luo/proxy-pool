@@ -41,10 +41,12 @@ public class CrawlerJob implements Runnable {
 
             //schedulerJobExecutor.execute(new SpysOneCrawlerJob(proxyIpQueue, "http://spys.one/en/free-proxy-list/"), 40, 100, TimeUnit.SECONDS);
 
+            // TODO: 2019/7/11 可用
             schedulerJobExecutor.execute(new ProxynovaCrawlerJob(proxyIpQueue, "https://www.proxynova.com/proxy-server-list/"), 50, 100, TimeUnit.SECONDS);
 
             schedulerJobExecutor.execute(new Proxy4FreeCrawlerJob(proxyIpQueue, "https://www.proxy4free.com/list/webproxy1.html"), 60, 100, TimeUnit.SECONDS);
 
+            // TODO: 2019/7/11 可用
             schedulerJobExecutor.execute(new GatherproxyCrawlerJob(proxyIpQueue, "http://www.gatherproxy.com/"), 70, 100, TimeUnit.SECONDS);
 
             //消费者
